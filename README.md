@@ -177,3 +177,50 @@ bikes_df
 bikes_df.isna().any()
 ```
 - **3. Check for  Duplicates**:
+```python
+# solution
+# counting the total number of our datapoint
+
+len(bikes_df)
+```
+# dropping any duplicate if any exist 
+
+bikes_df.drop_duplicates(inplace = True)
+
+
+- **4. Handling Duplicates**:
+```python
+# solution
+# recounting our data point again 
+
+len(bikes_df)
+# Tis shows that there was no duplicate on our dataset
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
